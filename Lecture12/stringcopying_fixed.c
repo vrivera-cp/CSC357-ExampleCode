@@ -16,7 +16,7 @@ int main() {
     strings[1] = malloc(sizeof(char) * 6);
     // Initialize allocated values
     for (int i = 0; i < 6; i++) {
-        strings[i] = '\0';
+        strings[1][i] = '\0';
     }
 
     for (int i = 0; strings[0][i] != '\0'; i++) {
